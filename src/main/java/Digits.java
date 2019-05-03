@@ -20,7 +20,7 @@ public class Digits {
             else
                 System.out.println("Negative or exceeds 2*10^9");
 
-        } catch (NumberFormatException ex) {
+        } catch (NumberFormatException exc) {
             System.out.println("It's not integer");
         }
     }
